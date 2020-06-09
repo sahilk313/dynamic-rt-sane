@@ -34,7 +34,7 @@ import org.fog.utils.FogLinearPowerModel;
 import org.fog.utils.FogUtils;
 import org.fog.utils.TimeKeeper;
 import org.fog.utils.distribution.DeterministicDistribution;
-
+//ss
 public class RealTraces_1 {
 	static List<FogDevice> fogDevices = new ArrayList<FogDevice>();
 	static List<FogDevice> mobiles = new ArrayList<FogDevice>();
