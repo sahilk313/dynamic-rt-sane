@@ -40,6 +40,14 @@ import org.fog.utils.NetworkUsageMonitor;
 import org.fog.utils.TimeKeeper;
 
 public class FogDevice extends PowerDatacenter {
+	private int mips;
+	public int getMips() {
+	return mips;
+	}
+	public void setMips(int mips) {
+	this.mips = mips;
+	}
+	
 	protected Queue<Tuple> northTupleQueue;
 	protected Queue<Pair<Tuple, Integer>> southTupleQueue;
 	
